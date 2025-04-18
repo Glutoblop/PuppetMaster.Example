@@ -165,57 +165,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _ZipPath: 
   _LoadedBundle: {fileID: 0}
-  _MediaPath: D:/Work/Unity/PuppetMaster.Example/Assets/StreamingAssets/Plugins/DemoEffect/Media
+  _MediaPath: 
   EffectPrefab: {fileID: 0}
   EffectInstance: {fileID: 0}
   EffectConfig:
-    Type: DemoEffect
+    Type: 
     Name: 
-    Fields:
-    - Attribute: CommandActiveAttribute
-      Description: Is the command active as a chat command?
-      FieldName: ChatCommandActive
-      Meta: 
-    - Attribute: CooldownInputAttribute
-      Description: Chat command cooldown (seconds)
-      FieldName: ChatCooldownSeconds
-      Meta: 
-    - Attribute: FolderSelectAttribute
-      Description: Relative Path to intro video folder
-      FieldName: IntroVideosFolder
-      Meta: '{"DefaultPath":null}'
-    - Attribute: FileSelectAttribute
-      Description: Absolute path to intro video file
-      FieldName: IntroVideoFile
-      Meta: 
-    - Attribute: NumberInputAttribute
-      Description: The width resolution of the video
-      FieldName: VideoResolutionX
-      Meta: '{"IsWholeNumber":false}'
-    - Attribute: NumberInputAttribute
-      Description: The height resolution of the video
-      FieldName: VideoResolutionY
-      Meta: '{"IsWholeNumber":false}'
-    - Attribute: FolderSelectAttribute
-      Description: Relative path to image folder
-      FieldName: ImageFolder
-      Meta: '{"DefaultPath":null}'
-    - Attribute: NumberInputAttribute
-      Description: The width resolution of the image
-      FieldName: ImageResolutionX
-      Meta: '{"IsWholeNumber":false}'
-    - Attribute: NumberInputAttribute
-      Description: The height resolution of the image
-      FieldName: ImageResolutionY
-      Meta: '{"IsWholeNumber":false}'
-    - Attribute: FolderSelectAttribute
-      Description: Relative path to sound folder
-      FieldName: SoundFolder
-      Meta: '{"DefaultPath":null}'
-    - Attribute: SlideSelectAttribute
-      Description: Volume percentage for this effect.
-      FieldName: Volume
-      Meta: '{"MinValue":0.0,"MaxValue":100.0,"IsWholeNumber":true}'
+    Fields: []
 --- !u!1 &1653232221
 GameObject:
   m_ObjectHideFlags: 0

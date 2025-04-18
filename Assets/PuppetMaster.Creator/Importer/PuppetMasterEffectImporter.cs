@@ -133,7 +133,7 @@ public class PuppetMasterEffectImporter : MonoBehaviour
             fields = fields
                 .OrderByDescending(s =>
                     s.GetCustomAttribute<CommandActiveAttribute>() != null ||
-                    s.GetCustomAttribute<CooldownInputAttribute>() != null)
+                    s.GetCustomAttribute<CommandCooldownAttribute>() != null)
                 .ToList();
 
             EffectConfig = new EffectConfig()

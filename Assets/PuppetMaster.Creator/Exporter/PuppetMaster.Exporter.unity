@@ -240,8 +240,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1fcd0dbb8b02a24cb40a760b992f87b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RewardEffectPrefab: {fileID: 909713481684670075, guid: 18485e07e4ad9dc4a86fa4e3c46e860f, type: 3}
-  EffectStreamingAssetsParentFolder: Assets\StreamingAssets\DemoEffect
+  RewardEffectPrefab: {fileID: 6373495610945532613, guid: 0d88c76fd2c593846bb6b9465e28bac2, type: 3}
+  EffectStreamingAssetsParentFolder: Assets\StreamingAssets\WhiskyClick
 --- !u!4 &1700472947
 Transform:
   m_ObjectHideFlags: 0
